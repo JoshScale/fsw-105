@@ -4,7 +4,7 @@ var shoppingList = {
     item3:"chicken",
     item4:[5,true],
     item5: function(){
-        return this.item1 + "item2" + item3 
+        return this.item1 + "item2" + item3 + this
     }
  }
  function shoppingCart(params,another)  {
