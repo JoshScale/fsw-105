@@ -1,14 +1,9 @@
 var shoppingList = {
-    item1:"Apples",
-    item2:"Celery",
-    item3:"chicken",
-    item4:[5,true],
-    item5: function(){
-        return this.item1 + "item2" + item3 + this
+    item1: "Turkey",
+    item2 : "Apples",
+    item3 : true,
+    item4 : function() {
+      return this.item1 + "" + this.item3;
     }
- }
- function shoppingCart(params,another)  {
-     return params + " " + another 
- }
+  };
 console.log(shoppingList)
-console.log(shoppingCart("blue","another"))
