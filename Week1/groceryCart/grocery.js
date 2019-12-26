@@ -1,9 +1,10 @@
-var shoppingList = {
-    item1: "Turkey",
-    item2 : "Apples",
-    item3 : true,
-    item4 : function() {
-      return this.item1 + "" + this.item3;
+var shopper= {
+    name:"Joshua",
+    age: 29,
+    groceryCart:['Apples','Celery','Pizza','Fish','Coffee'],
+  isHungry:true,
+    item:function() {
+      return this.name + "" + this.age + this.groceryCart +""+this.item;
     }
   };
-console.log(shoppingList)
+console.log(shopper)
