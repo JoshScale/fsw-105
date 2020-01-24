@@ -1,15 +1,16 @@
-var officeItems = ["stapler","monitor", "computer","desk", "lamp","computer","lamp","stapler","computer","computer"] 
-officeItems.length
-var computer = 0;
+var officeItems = ["stapler","monitor", "computer","desk", "lamp","computer","lamp","stapler","computer","computer"]; 
 
-for (var i = 0; i< officeItems.length; i++){
-    if(officeItems[i] ==="computer" ) {
+var wordComputer="computer"
+function computerCount(officeItems,wordComputer)
 
-        computer++ 
+for (i = 0; i< officeItems; i++){
+    var computerCount=0
+    if(officeItems[i] ===wordComputer ) {
+        computerCount 
+        computer++ ;
+    
  
- console.log(officeItems[i])
+
     }
 }
-
-
-
+console.log(computer)

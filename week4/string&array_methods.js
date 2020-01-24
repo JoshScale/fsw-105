@@ -1,0 +1,1 @@
+capitlizeAndLowercase("Hello") 
